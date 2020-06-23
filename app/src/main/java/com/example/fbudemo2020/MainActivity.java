@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "Hello FBU 2020!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Second message", Toast.LENGTH_SHORT).show();
             }
         });
     }
